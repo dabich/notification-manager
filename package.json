@@ -1,6 +1,7 @@
 {
   "name": "notification-manager",
-  "version": "1.0.9",
+  "version": "2.0.0",
+  "description": "Notification manager for Angular applications",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -47,5 +48,18 @@
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
     "typescript": "^2.6.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reflection937/notification-manager.git"
+  },
+  "keywords": [
+    "angular",
+    "notifications"
+  ],
+  "author": "Dmitry Parfenov",
+  "bugs": {
+    "url": "https://github.com/reflection937/notification-manager/issues"
+  },
+  "homepage": "https://github.com/reflection937/notification-manager#readme"
 }
