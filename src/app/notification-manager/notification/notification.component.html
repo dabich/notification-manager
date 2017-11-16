@@ -1,0 +1,14 @@
+<div class="notification-item-container"
+     *ngIf="notification">
+  <div class="notification-item"
+       [ngClass]="{'default': notification.type === notificationType.Default,
+       'error': notification.type === notificationType.Error,
+       'success': notification.type === notificationType.Success,
+       'warning': notification.type === notificationType.Warning}"
+       (mouseenter)="setFocus(true)"
+       (mouseleave)="setFocus(false)">
+    <div class="message">{{notification.message}}</div>
+    <div class="close"
+         (click)="remove()"></div>
+  </div>
+</div>

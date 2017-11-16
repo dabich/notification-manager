@@ -1,0 +1,8 @@
+<div class="notifications-container"
+     *ngIf="getNotifications().length"
+     [@fadeOutNotification]="">
+  <nm-notification
+    *ngFor="let notification of getNotifications()"
+    [notification]="notification"
+    [@moveBottomNotification]=""></nm-notification>
+</div>
