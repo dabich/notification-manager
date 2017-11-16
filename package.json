@@ -1,6 +1,6 @@
 {
   "name": "notification-manager",
-  "version": "1.0.9",
+  "version": "2.0.0",
   "description": "Notification manager for Angular applications",
   "license": "MIT",
   "scripts": {
@@ -58,7 +58,6 @@
     "notifications"
   ],
   "author": "Dmitry Parfenov",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/reflection937/notification-manager/issues"
   },
