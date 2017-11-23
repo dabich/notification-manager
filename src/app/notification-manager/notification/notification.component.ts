@@ -11,7 +11,7 @@ import {NotificationManagerService} from '../notification-manager.service';
 })
 export class NotificationComponent implements OnInit {
 
-  @Input() private notification: NotificationInterface;
+  @Input() public notification: NotificationInterface;
 
   private readonly notificationType = NotificationManagerTypes;
 
